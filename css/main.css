@@ -29,6 +29,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 32px 40px;
+    color: white;
+
 }
 .left-right-section .images{
     width: 50%;
@@ -38,4 +41,34 @@
 .left-right-section .images img{
     height: 100%;
    width: 100%;
+}
+
+.text h1, .text h3{
+    margin: 0;
+   
+}
+.text h1{
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+.text h3{
+    margin-bottom: 32px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.text .cta{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2 ease;
+}
+
+.text .cta:hover{
+    background-color: hsla(0,0%,100%,.12);
+   
 }
