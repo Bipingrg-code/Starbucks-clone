@@ -178,8 +178,8 @@
   transition: all 0.2 ease;
 }
 
-.dis-text .dis-cta:hover {
-  background-color: hsla(0, 0%, 100%, 0.12);
+.dis-cta:hover {
+  background-color: hsla(0, 55%, 55%, 0.12);
 }
 
 .earning {
@@ -216,6 +216,10 @@
   font-size: 19px;
   font-weight: 400;
 }
+.earn-text, h3 .fee{
+  color: #1e3932;
+  font-weight: bold;
+}
 .earning .earn-text {
   background-color: #d4e9e2;
   width: 50%;
@@ -237,5 +241,82 @@
 }
 
 .earn-text .earn-cta:hover {
-  background-color: hsla(0, 0%, 100%, 0.12);
+  background-color: hsla(0, 64%, 37%, 0.12);
+}
+
+.celebrate{
+  display: flex;
+  margin-bottom: 32px;
+  background-color: #d4e9e2;
+}
+.celebrate .image {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.celebrate .image img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.celebrate .celebrate-text {
+  background-color: #d4e9e2;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1e3932;
+}
+.celebrate-cta{
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  color: #030303;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2 ease;
+}
+.celebrate-cta:hover{
+  background-color: #1e3932;
+}
+.celebrate-text h1,
+.celebrate-text h3 {
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
+  line-height: 1.7;
+}
+.celebrate-text h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #1e3932;
+}
+.celebrate-text h3 {
+  margin-bottom: 32px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.note{
+  height: 70vh;
+ position: relative;
+}
+
+.note-text{
+  height: 90%;
+  width: 60%;
+  margin:  auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.note1, .note2{
+  color: #1e3932;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
 }
