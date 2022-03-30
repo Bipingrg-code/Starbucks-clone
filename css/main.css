@@ -278,7 +278,7 @@
   transition: all 0.2 ease;
 }
 .celebrate-cta:hover{
-  background-color: #1e3932;
+  background-color:hsla(0, 55%, 55%, 0.12);
 }
 .celebrate-text h1,
 .celebrate-text h3 {
