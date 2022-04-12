@@ -68,6 +68,26 @@ footer {
   margin-bottom: 0.8rem;
   cursor: pointer;
 }
-footer {
+footer p{
+  padding: 20px 0;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .footer{
+   height: 100%;
+  }
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .media-icons{
+    justify-content: center;
+    align-items: center;
+  }
+  .text-links{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
