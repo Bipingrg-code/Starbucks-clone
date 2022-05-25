@@ -119,8 +119,13 @@ header {
   nav{
     display: none;
   }
-  #r-menu.show{
+  #l-menu.show{
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #r-menu.show{
+    display: block;
   }
   .hamburger{
     display: block;

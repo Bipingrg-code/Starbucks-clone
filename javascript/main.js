@@ -3,5 +3,5 @@ const leftMenu = document.querySelector('#l-menu');
 const rightMenu = document.querySelector('#r-menu');
 var menu;
 hamburger.addEventListener('click',() => {
-
+    leftMenu.classList.toggle('show')
 })
